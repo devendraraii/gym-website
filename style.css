@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('bg_img.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: black;
+    /* border-radius: 30px; */
+    width: 100%;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    margin: 10px 40px;
+    padding: 7px;
+}
+
+.navbar input {
+    border: 3px solid black;
+    border-radius: 7px;
+    width: 140px;
+}
+
+.search {
+    color: white;
+    float: right;
+    margin: 16px 2px 15px 75px;
+}
+
+.btn button {
+    color: black;
+    float: right;
+    border-radius: 7px;
+    margin: 17px 60px 15px 3px;
+}
+
+.btn button:hover {
+    background-color: red;
+}
+
+.navbar li a:hover {
+    color: red;
+}
+
+.cointainer h3 {
+    margin: 50px 0px 20px 0px;
+    font-size: 170%;
+}
+
+.cointainer {
+    margin: 120px auto;
+    width: 33%;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 50px;
+}
+
+.form input {
+    width: 250px;
+    text-align: center;
+    padding: 6px;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cointainer {
+    color: white;
+}
+
+.cointainer button {
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    margin: 4px 0px 25px 0px;
+    width: 260px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0095F6;
+}
+
+.cointainer button:hover,
+.signUp a:hover {
+    text-decoration: underline;
+}
+
+.signUp {
+    margin: 0px 0px 10px 0px;
+}
+
+.signUp a {
+    text-decoration: none;
+    color: #0095F6;
+}

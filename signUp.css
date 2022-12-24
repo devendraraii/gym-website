@@ -1,0 +1,108 @@
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px;
+    padding: 0px;
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+
+}
+
+.mid {
+    margin: 20px auto;
+    width: 36%;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    line-height: 10px;
+    font-size: 26px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 32px 10px;
+}
+
+.navbar li a:hover, .navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    padding: 4px 14px;
+    background-color: black;
+    color: white;
+    /* border: none; */
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+    text-decoration: underline;
+}
+
+.cointainer {
+    border: 2px solid white;
+    margin: 200px auto;
+    padding: 30px 75px;
+    width: 33%;
+    border-radius: 20px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    margin: 8px auto;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'baloo bhai', cursive;
+}
+.cointainer h2{
+    text-align: center;
+}
+.cointainer button{
+    display: block;
+    width: 97%;
+    margin: 20px auto;
+
+}
